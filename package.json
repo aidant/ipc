@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
+    "development": "node --harmony --enable-source-maps lib/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.1",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.9.0-dev.20200215"
+  }
+}
